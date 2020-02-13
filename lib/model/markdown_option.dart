@@ -1,4 +1,4 @@
-part of openapi.api;
+part of gitea_openapi;
 
 class MarkdownOption {
   /* Context to render  in: body */

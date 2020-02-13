@@ -1,4 +1,4 @@
-part of openapi.api;
+part of gitea_openapi;
 
 class ExternalTracker {
   /* External Issue Tracker URL Format. Use the placeholders {user}, {repo} and {index} for the username, repository name and issue index. */

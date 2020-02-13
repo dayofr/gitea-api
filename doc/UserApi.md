@@ -1,8 +1,8 @@
-# openapi.api.UserApi
+# gitea_openapi.UserApi
 
 ## Load the API package
 ```dart
-import 'package:openapi/api.dart';
+import 'package:gitea_openapi/api.dart';
 ```
 
 All URIs are relative to *http://localhost/api/v1*
@@ -59,7 +59,7 @@ Create a repository
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:gitea_openapi/api.dart';
 // TODO Configure API key authorization: AccessToken
 //defaultApiClient.getAuthentication<ApiKeyAuth>('AccessToken').apiKey = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -123,7 +123,7 @@ Add email addresses
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:gitea_openapi/api.dart';
 // TODO Configure API key authorization: AccessToken
 //defaultApiClient.getAuthentication<ApiKeyAuth>('AccessToken').apiKey = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -187,7 +187,7 @@ Check if one user is following another user
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:gitea_openapi/api.dart';
 // TODO Configure API key authorization: AccessToken
 //defaultApiClient.getAuthentication<ApiKeyAuth>('AccessToken').apiKey = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -252,7 +252,7 @@ Create an access token
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:gitea_openapi/api.dart';
 // TODO Configure API key authorization: AccessToken
 //defaultApiClient.getAuthentication<ApiKeyAuth>('AccessToken').apiKey = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -317,7 +317,7 @@ Check whether a user is followed by the authenticated user
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:gitea_openapi/api.dart';
 // TODO Configure API key authorization: AccessToken
 //defaultApiClient.getAuthentication<ApiKeyAuth>('AccessToken').apiKey = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -380,7 +380,7 @@ Whether the authenticated is starring the repo
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:gitea_openapi/api.dart';
 // TODO Configure API key authorization: AccessToken
 //defaultApiClient.getAuthentication<ApiKeyAuth>('AccessToken').apiKey = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -445,7 +445,7 @@ Unfollow a user
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:gitea_openapi/api.dart';
 // TODO Configure API key authorization: AccessToken
 //defaultApiClient.getAuthentication<ApiKeyAuth>('AccessToken').apiKey = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -508,7 +508,7 @@ Remove a GPG key
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:gitea_openapi/api.dart';
 // TODO Configure API key authorization: AccessToken
 //defaultApiClient.getAuthentication<ApiKeyAuth>('AccessToken').apiKey = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -571,7 +571,7 @@ Delete a public key
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:gitea_openapi/api.dart';
 // TODO Configure API key authorization: AccessToken
 //defaultApiClient.getAuthentication<ApiKeyAuth>('AccessToken').apiKey = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -634,7 +634,7 @@ Unstar the given repo
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:gitea_openapi/api.dart';
 // TODO Configure API key authorization: AccessToken
 //defaultApiClient.getAuthentication<ApiKeyAuth>('AccessToken').apiKey = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -699,7 +699,7 @@ Get a GPG key
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:gitea_openapi/api.dart';
 // TODO Configure API key authorization: AccessToken
 //defaultApiClient.getAuthentication<ApiKeyAuth>('AccessToken').apiKey = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -763,7 +763,7 @@ Get a public key
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:gitea_openapi/api.dart';
 // TODO Configure API key authorization: AccessToken
 //defaultApiClient.getAuthentication<ApiKeyAuth>('AccessToken').apiKey = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -827,7 +827,7 @@ List the authenticated user's followers
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:gitea_openapi/api.dart';
 // TODO Configure API key authorization: AccessToken
 //defaultApiClient.getAuthentication<ApiKeyAuth>('AccessToken').apiKey = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -893,7 +893,7 @@ List the users that the authenticated user is following
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:gitea_openapi/api.dart';
 // TODO Configure API key authorization: AccessToken
 //defaultApiClient.getAuthentication<ApiKeyAuth>('AccessToken').apiKey = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -959,7 +959,7 @@ List the authenticated user's GPG keys
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:gitea_openapi/api.dart';
 // TODO Configure API key authorization: AccessToken
 //defaultApiClient.getAuthentication<ApiKeyAuth>('AccessToken').apiKey = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -1025,7 +1025,7 @@ List the authenticated user's public keys
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:gitea_openapi/api.dart';
 // TODO Configure API key authorization: AccessToken
 //defaultApiClient.getAuthentication<ApiKeyAuth>('AccessToken').apiKey = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -1093,7 +1093,7 @@ List the repos that the authenticated user owns or has access to
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:gitea_openapi/api.dart';
 // TODO Configure API key authorization: AccessToken
 //defaultApiClient.getAuthentication<ApiKeyAuth>('AccessToken').apiKey = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -1159,7 +1159,7 @@ The repos that the authenticated user has starred
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:gitea_openapi/api.dart';
 // TODO Configure API key authorization: AccessToken
 //defaultApiClient.getAuthentication<ApiKeyAuth>('AccessToken').apiKey = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -1225,7 +1225,7 @@ List repositories watched by the authenticated user
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:gitea_openapi/api.dart';
 // TODO Configure API key authorization: AccessToken
 //defaultApiClient.getAuthentication<ApiKeyAuth>('AccessToken').apiKey = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -1291,7 +1291,7 @@ Create a GPG key
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:gitea_openapi/api.dart';
 // TODO Configure API key authorization: AccessToken
 //defaultApiClient.getAuthentication<ApiKeyAuth>('AccessToken').apiKey = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -1355,7 +1355,7 @@ Create a public key
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:gitea_openapi/api.dart';
 // TODO Configure API key authorization: AccessToken
 //defaultApiClient.getAuthentication<ApiKeyAuth>('AccessToken').apiKey = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -1419,7 +1419,7 @@ Follow a user
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:gitea_openapi/api.dart';
 // TODO Configure API key authorization: AccessToken
 //defaultApiClient.getAuthentication<ApiKeyAuth>('AccessToken').apiKey = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -1482,7 +1482,7 @@ Star the given repo
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:gitea_openapi/api.dart';
 // TODO Configure API key authorization: AccessToken
 //defaultApiClient.getAuthentication<ApiKeyAuth>('AccessToken').apiKey = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -1547,7 +1547,7 @@ List the current user's tracked times
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:gitea_openapi/api.dart';
 // TODO Configure API key authorization: AccessToken
 //defaultApiClient.getAuthentication<ApiKeyAuth>('AccessToken').apiKey = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -1613,7 +1613,7 @@ delete an access token
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:gitea_openapi/api.dart';
 // TODO Configure API key authorization: AccessToken
 //defaultApiClient.getAuthentication<ApiKeyAuth>('AccessToken').apiKey = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -1678,7 +1678,7 @@ Delete email addresses
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:gitea_openapi/api.dart';
 // TODO Configure API key authorization: AccessToken
 //defaultApiClient.getAuthentication<ApiKeyAuth>('AccessToken').apiKey = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -1741,7 +1741,7 @@ Get a user
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:gitea_openapi/api.dart';
 // TODO Configure API key authorization: AccessToken
 //defaultApiClient.getAuthentication<ApiKeyAuth>('AccessToken').apiKey = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -1805,7 +1805,7 @@ Get the authenticated user
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:gitea_openapi/api.dart';
 // TODO Configure API key authorization: AccessToken
 //defaultApiClient.getAuthentication<ApiKeyAuth>('AccessToken').apiKey = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -1865,7 +1865,7 @@ Get a user's heatmap
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:gitea_openapi/api.dart';
 // TODO Configure API key authorization: AccessToken
 //defaultApiClient.getAuthentication<ApiKeyAuth>('AccessToken').apiKey = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -1929,7 +1929,7 @@ Get list of all existing stopwatches
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:gitea_openapi/api.dart';
 // TODO Configure API key authorization: AccessToken
 //defaultApiClient.getAuthentication<ApiKeyAuth>('AccessToken').apiKey = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -1995,7 +1995,7 @@ List the authenticated user's access tokens
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:gitea_openapi/api.dart';
 // TODO Configure API key authorization: AccessToken
 //defaultApiClient.getAuthentication<ApiKeyAuth>('AccessToken').apiKey = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -2063,7 +2063,7 @@ List the authenticated user's email addresses
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:gitea_openapi/api.dart';
 // TODO Configure API key authorization: AccessToken
 //defaultApiClient.getAuthentication<ApiKeyAuth>('AccessToken').apiKey = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -2123,7 +2123,7 @@ List the given user's followers
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:gitea_openapi/api.dart';
 // TODO Configure API key authorization: AccessToken
 //defaultApiClient.getAuthentication<ApiKeyAuth>('AccessToken').apiKey = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -2191,7 +2191,7 @@ List the users that the given user is following
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:gitea_openapi/api.dart';
 // TODO Configure API key authorization: AccessToken
 //defaultApiClient.getAuthentication<ApiKeyAuth>('AccessToken').apiKey = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -2259,7 +2259,7 @@ List the given user's GPG keys
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:gitea_openapi/api.dart';
 // TODO Configure API key authorization: AccessToken
 //defaultApiClient.getAuthentication<ApiKeyAuth>('AccessToken').apiKey = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -2327,7 +2327,7 @@ List the given user's public keys
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:gitea_openapi/api.dart';
 // TODO Configure API key authorization: AccessToken
 //defaultApiClient.getAuthentication<ApiKeyAuth>('AccessToken').apiKey = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -2397,7 +2397,7 @@ List the repos owned by the given user
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:gitea_openapi/api.dart';
 // TODO Configure API key authorization: AccessToken
 //defaultApiClient.getAuthentication<ApiKeyAuth>('AccessToken').apiKey = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -2465,7 +2465,7 @@ The repos that the given user has starred
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:gitea_openapi/api.dart';
 // TODO Configure API key authorization: AccessToken
 //defaultApiClient.getAuthentication<ApiKeyAuth>('AccessToken').apiKey = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -2533,7 +2533,7 @@ List the repositories watched by a user
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:gitea_openapi/api.dart';
 // TODO Configure API key authorization: AccessToken
 //defaultApiClient.getAuthentication<ApiKeyAuth>('AccessToken').apiKey = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -2601,7 +2601,7 @@ List all the teams a user belongs to
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:gitea_openapi/api.dart';
 // TODO Configure API key authorization: AccessToken
 //defaultApiClient.getAuthentication<ApiKeyAuth>('AccessToken').apiKey = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -2667,7 +2667,7 @@ Search for users
 
 ### Example 
 ```dart
-import 'package:openapi/api.dart';
+import 'package:gitea_openapi/api.dart';
 // TODO Configure API key authorization: AccessToken
 //defaultApiClient.getAuthentication<ApiKeyAuth>('AccessToken').apiKey = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed

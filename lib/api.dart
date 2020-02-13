@@ -1,4 +1,4 @@
-library openapi.api;
+library gitea_openapi;
 
 import 'dart:async';
 import 'dart:convert';

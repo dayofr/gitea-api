@@ -1,4 +1,4 @@
-part of openapi.api;
+part of gitea_openapi;
 
 class CreateEmailOption {
   /* email addresses to add */

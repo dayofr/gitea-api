@@ -1,4 +1,4 @@
-part of openapi.api;
+part of gitea_openapi;
 
 const _delimiters = const {'csv': ',', 'ssv': ' ', 'tsv': '\t', 'pipes': '|'};
 

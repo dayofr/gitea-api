@@ -1,4 +1,4 @@
-part of openapi.api;
+part of gitea_openapi;
 
 class CreateGPGKeyOption {
   /* An armored GPG key to add */

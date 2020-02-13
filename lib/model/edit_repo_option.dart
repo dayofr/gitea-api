@@ -1,4 +1,4 @@
-part of openapi.api;
+part of gitea_openapi;
 
 class EditRepoOption {
   /* either `true` to allow merging pull requests with a merge commit, or `false` to prevent merging pull requests with merge commits. `has_pull_requests` must be `true`. */

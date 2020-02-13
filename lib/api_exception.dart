@@ -1,4 +1,4 @@
-part of openapi.api;
+part of gitea_openapi;
 
 class ApiException implements Exception {
   int code = 0;

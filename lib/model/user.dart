@@ -1,4 +1,4 @@
-part of openapi.api;
+part of gitea_openapi;
 
 class User {
   /* URL to the user's avatar */

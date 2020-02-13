@@ -1,4 +1,4 @@
-part of openapi.api;
+part of gitea_openapi;
 
 class RepoTopicOptions {
   /* list of topic names */

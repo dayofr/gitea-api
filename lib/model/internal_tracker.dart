@@ -1,4 +1,4 @@
-part of openapi.api;
+part of gitea_openapi;
 
 class InternalTracker {
   /* Let only contributors track time (Built-in issue tracker) */

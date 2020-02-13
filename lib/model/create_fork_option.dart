@@ -1,4 +1,4 @@
-part of openapi.api;
+part of gitea_openapi;
 
 class CreateForkOption {
   /* organization name, if forking into an organization */

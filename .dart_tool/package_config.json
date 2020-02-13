@@ -314,13 +314,13 @@
       "languageVersion": "2.0"
     },
     {
-      "name": "openapi",
+      "name": "gitea_openapi",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.0"
     }
   ],
-  "generated": "2020-02-13T20:47:28.562773Z",
+  "generated": "2020-02-13T21:17:44.451841Z",
   "generator": "pub",
   "generatorVersion": "2.7.0"
 }
